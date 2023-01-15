@@ -17,8 +17,8 @@ Our search engine utilizes a combination of various retrieval methods:
 - Index_Anchor
 
 ### Capabillities:
-#### Main Method Search-
-Retrieve information using a query by utilizing both the body and title indexes (in a 0.5-0.5 ratio) using the BM-25 scoring algorithm. Additionally, we take into account the page rank and page view of the documents when determining the order of the results returned. we also use of WORD2VEC to enhance the relevance of the results.
+#### Main Search Method-
+Retrieve information using a query by utilizing both the body and title indexes (in a 0.5-0.5 ratio) using the BM-25 scoring algorithm. Additionally, we take into account the page rank and page view of the documents when determining the order of the results returned. We also use  WORD2VEC to enhance the relevance of the results.
 
 #### Additionally, our search engine has the capability to retrieve information using 5 different techniques- 
 
