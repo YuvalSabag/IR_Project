@@ -33,6 +33,7 @@ def search():
     res = []
     query = request.args.get('query', '')
     if len(query) == 0:
+        
       return jsonify(res)
     # BEGIN SOLUTION
     res = search_helper(query)
