@@ -17,9 +17,10 @@ Our search engine utilizes a combination of various retrieval methods:
 - Index_Anchor
 
 ### Capabillities:
-#### Search:
+#### Main Method Search-
 Retrieve information using a query by utilizing both the body and title indexes (in a 0.5-0.5 ratio) using the BM-25 scoring algorithm. Additionally, we take into account the page rank and page view of the documents when determining the order of the results returned. we also use of WORD2VEC to enhance the relevance of the results.
 
+##### Additionally, our search engine has the capability to retrieve information using 5 different techniques:
 
 -Search body: retrive information only through the wiki page body. Use tf-idf and cosine similarity measure for comparrison, with a tf-idf thresh of over 0.45 per term.
 -Serach title: retrive information only through the wiki page title. Use a binary ranking of terms existing or not in the title. More terms in title get priorotize.
