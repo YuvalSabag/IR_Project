@@ -22,11 +22,11 @@ Retrieve information using a query by utilizing both the body and title indexes 
 
 #### Additionally, our search engine has the capability to retrieve information using 5 different techniques- 
 
--Search body: Retrieve information exclusively from the Wikipedia page bodies by utilizing cosine similarity as the primary method of comparison.
--Serach title: Retrieve information by exclusively examining the titles of Wikipedia pages through a binary ranking system that gives priority to articles with a greater number of query terms present in their title.
--Search anchor: Retrieve information by exclusively examining the Wikipedia anchor text pages through a binary ranking system that gives priority to articles with a greater number of query terms present in anchor text.
--Get page rank: Retrieve the PageRank score of a specific Wikipedia article identified by its unique ID, based on the internal links within the article.
--Get page view: Retrieve the number of page views for a specific Wikipedia article, identified by its unique article ID.
+- Search body: Retrieve information exclusively from the Wikipedia page bodies by utilizing cosine similarity as the primary method of comparison.
+- Serach title: Retrieve information by exclusively examining the titles of Wikipedia pages through a binary ranking system that gives priority to articles with a greater number of query terms present in their title.
+- Search anchor: Retrieve information by exclusively examining the Wikipedia anchor text pages through a binary ranking system that gives priority to articles with a greater number of query terms present in anchor text.
+- Get page rank: Retrieve the PageRank score of a specific Wikipedia article identified by its unique ID, based on the internal links within the article.
+- Get page view: Retrieve the number of page views for a specific Wikipedia article, identified by its unique article ID.
 
 
 
