@@ -1,5 +1,5 @@
 # Information Retrieval - Search Engine
-The final project for our "Information Retrieval" course at BGU involves creating a search engine for English Wikipedia. This search engine is able to process and index over six million documents, designed to quickly and efficiently return relevant results for user queries from the all corpus of Wikipedia articles.
+The final project for our "Information Retrieval" course at BGU involves creating a search engine for English Wikipedia. This search engine is able to process and index over six million documents, designed to quickly and efficiently return relevant results for user queries from the all corpus of Wikipedia articles. All of these techniques were carefully tuned and optimized to provide the best possible search experience for our users.
 
 ### Retrival Methodes:
 Our search engine utilizes a combination of various retrieval methods:
@@ -31,7 +31,7 @@ Retrieve information using a query by utilizing both the body and title indexes 
 ### Notes:
 A link to our project on Google Cloud Storage - https://console.cloud.google.com/storage/browser/project_bucket_sy;tab=objects?forceOnBucketsSortingFiltering=false&project=ir-project-shani-yuval&prefix=&forceOnObjectsSortingFiltering=false
 
-The external IP address of a VM: http://34.173.147.179:8080 You can access our search engine by activating it at /search?query=YOUR_QUERY. 
+The external IP address of a VM: http://34.173.147.179:8080 you can access our search engine by activating it at /search?query=YOUR_QUERY. 
 Contact us via email for access to the virtual machine (:
 
 Yuval Sabag - yuvsa@post.bgu.ac.il , Shani Bahat - shanibah@post.bgu.ac.il
