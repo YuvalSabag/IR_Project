@@ -389,13 +389,13 @@ def merge_bm25_pr_pv(bm25_dic):
 
 
 def search_helper(query):
-    try:
-        if len(query) < 22:
-            title_score = 0.4
-            body_score = 1 - title_score
-        else:
-            title_score = 0.6
-            body_score = 1 - title_score
+#     try:
+#         if len(query) < 22:
+#             title_score = 0.4
+#             body_score = 1 - title_score
+#         else:
+#             title_score = 0.6
+#             body_score = 1 - title_score
 
         bm_25 = merge_bm25_scores(query, bm25_title=bm25_title, bm25_body=bm25_body)
         calc_scores = merge_bm25_pr_pv(bm_25)
