@@ -32,4 +32,5 @@ Retrieve information using a query by utilizing both the body and title indexes 
 A link to our project on Google Cloud Storage - https://console.cloud.google.com/storage/browser/project_bucket_sy;tab=objects?forceOnBucketsSortingFiltering=false&project=ir-project-shani-yuval&prefix=&forceOnObjectsSortingFiltering=false
 The external IP address of a VM: http://34.173.147.179:8080 You can access our search engine by activating it at /search?query=YOUR_QUERY. 
 Contact us via email for access to the virtual machine (:
+
 Yuval Sabag - yuvsa@post.bgu.ac.il , Shani Bahat - shanibah@post.bgu.ac.il
